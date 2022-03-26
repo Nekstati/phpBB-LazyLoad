@@ -1,0 +1,16 @@
+services:
+    nekstati.lazyload.subscriber:
+        class: nekstati\lazyload\event\subscriber
+        arguments:
+            - '@auth'
+            - '@config'
+            - '@dbal.conn'
+            - '@language'
+            - '@controller.helper'
+            - '@request'
+            - '@template'
+            - '@user'
+            - '%core.root_path%'
+            - '%core.table_prefix%'
+        tags:
+            - { name: event.listener }

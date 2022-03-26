@@ -1,0 +1,26 @@
+{
+    "name": "nekstati/lazyload",
+    "type": "phpbb-extension",
+    "description": "Lazy loading for images - attachments, avatars and photos posted via BBcode. No JavaScript, no conflicts with lightboxes and other JavaScript stuff.",
+    "homepage": "",
+    "version": "1.0.0",
+    "time": "2022-03-07",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Nekstati",
+            "email": "",
+            "homepage": "http://phpbbguru.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "extra": {
+        "display-name": "💡 Lazy Loading Images",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.3.0"
+        }
+    }
+}
